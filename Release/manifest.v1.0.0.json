@@ -1,0 +1,41 @@
+{
+  "referenceOnly": true,
+  "note": "Public reference summary for the v1.0.0 package. The installable .cmzmod on the GitHub Releases page contains the complete generated manifest and package-integrity metadata.",
+  "packageFormat": 1,
+  "id": "cmz.model-glitch-fix",
+  "name": "Model Glitch Fix",
+  "author": "AnlionGamer",
+  "publisher": "AnlionGamer",
+  "version": "1.0.0",
+  "gameVersion": "1.9.9.8",
+  "framework": "1.0.0",
+  "api": "1.0.0",
+  "recommendedManager": "1.2.0+",
+  "entryAssembly": "CMZ.ModelGlitchFix.dll",
+  "entryType": "CMZ.Mods.ModelGlitchFix.ModelGlitchFixMod",
+  "license": "AnlionGamer Community Distribution Terms v1.0",
+  "packageFile": "CMZ_Model_Glitch_Fix_v1.0.0.cmzmod",
+  "scope": {
+    "clientSide": true,
+    "networkProtocolChanged": false,
+    "gameplayCoordinatesChanged": false,
+    "saveFormatChanged": false,
+    "texturesChanged": false,
+    "lightingChanged": false,
+    "collisionChanged": false,
+    "enemyBehaviorChanged": false
+  },
+  "payload": {
+    "declaredFiles": 3,
+    "runtimeAssemblies": 1,
+    "licenseAndNoticeFiles": 2
+  },
+  "validation": {
+    "liveGameTestedForV1.0.0": true,
+    "playerArmorAndHelmetGlitchCorrected": true,
+    "affectedCustomEnemyGlitchCorrectedInTestedCases": true,
+    "movementCaseTested": true,
+    "farDistanceCaseTested": true
+  },
+  "multiplayer": "Client-side rendering fix. Each client should install the mod locally to receive the correction. The mod does not add packets, alter multiplayer protocol, change session rules, or require joining vanilla clients to install it."
+}
