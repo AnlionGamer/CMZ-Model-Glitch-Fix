@@ -1,0 +1,20 @@
+# Installable release packages belong on GitHub Releases, not in the repository tree.
+*.cmzmod
+*.zip
+*.7z
+*.rar
+
+# Development builders and build outputs are intentionally excluded.
+*Builder*/
+*Builder*.zip
+OUTPUT/
+_build/
+bin/
+obj/
+Dependencies/
+*.dll
+*.pdb
+*.log
+
+# Local/private configuration.
+settings.json
